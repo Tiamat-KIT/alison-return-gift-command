@@ -1,0 +1,7 @@
+services:
+  rust-shuttle:
+    build: .
+    volumes:
+      - ./gen:/workspace
+    tty: true
+    stdin_open: true
